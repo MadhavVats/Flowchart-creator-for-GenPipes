@@ -76,7 +76,7 @@ for i in range(1, len(total_steps)):
     if total_steps[i] == 'picard_sam_to_fastq':
         """A bam is added before the execution of picard_sam_to_fastq"""
         G.add_node('.bam', shape='diamond',
-                   style='filled', fillcolor='white', fontcolor=black)
+                   style='filled', fillcolor='white', fontcolor='black')
         G.add_edge('.bam', count + total_steps[i])
     if total_steps[i] == 'trimmomatic':
         """A fastq is added before the execution of trimmomatic"""
