@@ -7,8 +7,12 @@ Grey box - Step per readset
 Diamond box - Input file (type)
 
 Output looks like this when all five functions are called-
+
+
 ![Flowchart](flowchart.png)
 
 
 And like this when first function is not called-
+
+
 ![Flowchart2](flowchart2.png)
