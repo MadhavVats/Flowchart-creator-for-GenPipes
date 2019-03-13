@@ -5,7 +5,10 @@ A flow-chart creator that automatically builds the flowchart from the steps chos
 Black box - Steps on multiple readsets
 Grey box - Step per readset
 Diamond box - Input file (type)
+
 Output looks like this when all five functions are called-
 ![Flowchart](flowchart.png)
+
+
 And like this when first function is not called-
 ![Flowchart2](flowchart2.png)
