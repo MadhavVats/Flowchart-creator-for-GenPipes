@@ -10,8 +10,11 @@ class TraceCalls(object):
     def __call__(self, fn):
         @wraps(fn)
         def wrapper(*args, **kwargs):
+            #To check if a function is called inside a function
+            ret = fn(*args, **kwargs)
             global functions_called
             functions_called.append(fn.__name__)
+            return ret
         return wrapper
 
 
