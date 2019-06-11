@@ -1,0 +1,232 @@
+<root>
+    orientation: 'vertical'
+    
+    canvas.before:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    FloatLayout:
+        canvas.before:
+            Color:
+                rgba: 0, 0, 1, 0.5
+            Rectangle:
+                pos: self.pos
+                size: self.size
+    FloatLayout:
+        Scatter:
+            center: self.parent.center
+            size_hint: None,None
+            size: self.parent.size
+            canvas.after:
+                Color:
+                    rgba: 0, 0, 1, 0.5
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            ScrollView:
+                GridLayout:
+                    
+                    rows: 1
+                    size_hint_y: None
+                    size_hint_x:2
+                    width: self.minimum_width
+                    
+                    Label:
+                        id: lbl
+                        size_hint_x: None
+                        color:0,0,0,1
+                        markup:'True'
+                        text_size: self.size
+                        halign: 'center'
+                        valign: 'top'
+                        padding_x: 10
+                        size: self.texture_size
+                        padding_y:50
+                        markup: 'True'
+                        
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn() 
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        on_release: root.btn()
+
+
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()    
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()     
+
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()    
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()    
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()     
+
+
+                        
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()     
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()  
+
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 0, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()     
+
+
+
+                    Button:
+                        size_hint_x: None
+                        color:0,0,0,1
+                        background_color: 1, 0, 1, 0.5
+                        text: ' 1.Picard Sam to Fastq '
+                        
+                        on_release: root.btn()     
+
+
+    FloatLayout:
+        canvas.before:
+            Color:
+                rgba: 0, 0, 1, 0.5
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+    
+
+    
+
+            
+
+
+
+
+
+
+
+
+<cut_copy_paste>
+    size_hint: (None, None)
+    size: (470, 180)
+    pos_hint: {'center_x': 1/8, 'center_y': .544}
+    arrow_pos: 'top_mid'
+    Label:
+        markup:'True'
+        text_size: self.size
+        halign: 'left'
+        valign: 'top'
+        padding_x: 12
+        padding_y:15
+        text: """[anchor=title1][size=24]About the step.[/size]\n \n[anchor=content][size=20]Convert SAM/BAM files from the input readset file into FASTQ formatif FASTQ files are not already specified in the readset file. Do nothing otherwise."""
+                
+
